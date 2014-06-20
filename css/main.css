@@ -126,8 +126,12 @@ aside  img
 
 
 .headroom { transition: all .2s ease-in-out; }
+/*
 .headroom--unpinned {top: -65px;}
 .headroom--pinned {top: 0;}
+*/
+.headroom--top {top: 0;}
+.headroom--not-top {top: -65px;}
 
 .main aside {
     background: #FFF;
@@ -483,7 +487,7 @@ nav a:hover {
         border-width: 0px 1px 1px 1px;
     }
 
-.headroom--unpinned {top: 0px;}
+.headroom--not-top {top: 0px;}
 
 /* ============
     WIDE: Main
